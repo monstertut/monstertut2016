@@ -1,0 +1,102 @@
+/* desktop */
+@media (max-width: 1200px){
+
+.container {
+    width: 970px;
+}
+
+
+}
+
+
+
+
+/* tablet portrait and below */
+
+@media (max-width: 1024px){
+
+body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.container{
+    max-width: 768px;
+}    
+
+
+/* responsive menu activate */
+
+.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+/* end of responsive menu */
+
+
+
+
+
+
+
+}
+
+/* end of tablet portrait and below */
+
+
+
+
+/* mobile landscape and below */
+
+
+@media (max-width: 768px){
+
+.container{
+    max-width: 480px;
+}
+
+.prev, .next {
+    float: none;
+}
+
+
+}
+
+
+/* end of mobile landscape and below */
+
+
+
+/* mobile portrait */
+
+
+@media (max-width: 479px){
+
+.container {
+    width: 320px;
+}
+
+
+
+}
+/*end of mobile portrait*/

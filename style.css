@@ -1,0 +1,355 @@
+/*
+Theme Name: monstertut2016
+
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img, a img{
+border:0 none;
+}
+
+img{
+vertical-align:baseline;
+max-width: 100%;
+height: auto;
+}
+
+a{
+outline:0;
+}
+
+a[href^=tel]:link { color: inherit; }
+
+
+a:focus, input:focus, textarea:focus, select:focus{
+outline: none;
+}
+
+textarea {
+resize: none;
+max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*img, div, input { behavior: url("iepngfix.htc") }*/
+
+
+.imgCenter{
+display:block;
+margin:0 auto;
+clear:both;
+}
+
+.imgRight{
+float:right;
+}
+
+.imgLeft{
+float:left;
+}
+
+.none{
+display:none;
+}
+
+.underlined{
+text-decoration:underline;
+}
+
+.textCenter{
+text-align:center;
+}
+
+.textLeft{
+text-align:left;
+}
+
+.textRight{
+text-align:right;
+}
+
+.clear{
+clear:both;
+height:0;
+line-height:0;
+font-size:0;
+}
+
+div{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+filter: alpha(opacity=0);*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 0 auto;
+}
+
+.alignright {
+    float:right;
+    margin: 0 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+a img.alignright {
+    float:right;
+    margin: 0 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 0 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+
+/* pagination */
+.navigation .screen-reader-text {
+    display: none;
+}
+.nav-links a {
+    padding: 0 5px;
+}
+.navigation.pagination {
+    margin: 50px 0 0;
+}
+
+	/* = end of WordPress Core
+-------------------------------------------------------------- */
+
+body {
+    font-family: "Open Sans",sans-serif;
+    background: rgba(63,114,216,1;);
+}
+
+#header {
+    background: #F5F5F5;
+    color: #222;
+    padding: 19px 2% 4%;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: center;
+}
+#header ul.menu {
+    margin: 17px 0 0;
+}
+#header ul.menu li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 12px;
+}
+#header #home {
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #3f72d8;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+#header a {
+    color: #3f72d8;
+    text-decoration: none;
+}
+#content {
+    margin: -3% auto 0;
+    max-width: 1200px;
+    padding: 4% 4%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.1);
+    font-size: 13px;
+    line-height: 20px;
+    background: #fff;
+}
+#content a {
+    color: #3f72d8;
+    text-decoration: none;
+}
+#content h2 {
+    font-weight: 400;
+    margin: 0 0 3px;
+}
+#content time {
+    margin: 0 0 18px;
+    display: block;
+    opacity: 0.32;
+}
+#content p, #content ul, #content ol {
+    margin: 0 0 20px;
+}
+#content h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding-top: 39px;
+}
+
+.home #content time, .archive #content time {
+    display: none;
+}
+.home .post, .archive .post {
+    margin: 0 0 40px;
+}
+.home #content h2, .archive #content h2 {
+    margin: 0 0 3px;
+    font-size: 16px;
+}
+.intro {
+    background: #F5F5F5;
+    padding: 2% 2% 1px;
+    margin: 0 0 40px;
+    border-radius: 3px;
+}
+
+.ap-form-wrapper h2 {
+    font-size: 12px;
+    display: inline;
+}
+.ap-form-wrapper {
+    color: #333;
+}
+.ap-form-wrapper input[type="submit"] {
+    background: #3f72d8;
+    border: 0 none;
+    color: #fff;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ap-form-wrapper {
+    margin: 20px 0;
+}
+.page-id-955 #content time {
+    display: none;
+}
+.ap-post-submission-message {
+    color: #3F72D8;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    background: #F5F5F5;
+}
+
+.page-id-963 #content time {
+    display: none;
+}
+
+.page-id-963 #content p:nth-of-type(1) {
+    padding-bottom: 30px;
+}
+
+.page-title {
+    font-size: 14px;
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+.prev {
+    text-align: left;
+    float: left;
+}
+.next {
+    text-align: right;
+    float: right;
+}
+.prev, .next {
+    margin: 2% 0 0;
+    padding-bottom: 30px;
+}
+#content:after {
+    clear: both;
+}
+
+.crayon-syntax .crayon-main, .crayon-syntax .crayon-plain {
+    overflow: auto;
+    padding: 30px 0 !important;
+}
+
+.crayon-theme-classic .crayon-toolbar {
+    background: #ddd none repeat scroll 0 0 !important;
+    border-bottom: 1px solid #bbb !important;
+    margin-top: 0 !important;
+}
